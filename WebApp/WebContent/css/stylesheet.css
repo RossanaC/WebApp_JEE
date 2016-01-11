@@ -1,0 +1,87 @@
+body {
+	 background-color: #186f99;
+	 padding-top: 50px;
+}
+
+h1.h {
+	color: #186f99;
+	font-size: 125%;
+	font-family: sans-serif;
+}
+
+h1.failure {
+	color: #c41a16;
+}
+
+span.username {
+	font-style: italic;
+	color: #c41a16;
+}
+
+p {
+	color: #186f99;
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+p.notavailable {
+	color: #c41a16;
+}
+p.available {
+	color: #4fab07;
+}
+
+a {
+	color: #28aff0;
+	font-size: 100%;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+div.container {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	width: 60%;
+	text-align:center;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+	font-family: sans-serif;
+	font-size: 100%;
+	color: #186f99;
+	background-color: #ffffff;
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	padding: 8px;
+	width: 80%;
+	margin-top: 10px;
+}
+
+input[type='submit'] {
+	color: #ffffff;
+	font-size: 90%;
+	background-color: #28aff0;
+	padding: 8px;
+	border: 1px solid #16668c;
+	border-radius: 5px;
+	width: 60%;
+}
+
+/* ------ Footer ------ */
+.footer {
+	background: none ;
+	border: 1px solid #ffffff;
+	padding: 20 px ;
+	border-radius: 5px;
+	width: 60%;
+	margin: 0 auto;
+}
+.footer > p {
+	color: #ffffff;
+	font-size: 90%;
+	font-family: sans-serif;
+	text-align: center;
+}
